@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>SARS.aspx
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 100%;
+            /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        }
+
+        /* Then style the iframe to fit in the container div with full height and width */
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .responsive {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0; height: 100%;">
+    <img src="./SARS.png" alt="Nature" class="responsive" width="600" height="400">
+    <!-- <div class="container">
+        <img src="./SARS.png" alt="Nature" class="responsive" width="600" height="400">
+        <iframe class="responsive-iframe" src="./SARS.png"></iframe>
+
+    </div> -->
+
+
+</body>
+
+</html>
